@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Edu SA Beginner', cursive;
+
+}
+header{
+    
+    background: black url('imagens/paisagem-de-arranjo-de-cactos-e-amanhecer_23-2148268095.avif') bottom center no-repeat fixed;
+    background-size: cover;
+    margin: 0px;
+    margin-top: -28px;
+    height: 200px;
+    padding: auto;
+}
+header h1{
+    text-transform: uppercase;
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: chocolate;
+    font-size: 5vw;
+    text-shadow: #00000070 1px 2px 3px; 
+    font-variant: small-caps;
+}
+header p{
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+nav{
+    background-color: #ecc383;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px 0px 0px 10px;
+}
+nav ul li{
+    background-color: transparent;
+    margin: 4px;
+    padding: 10px;
+}
+nav ul li a{
+    color: chocolate;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-color: chocolate;
+    color: #ecc383;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3vw;
+}
+section p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: #00000060;
+    color: white;
+}
+section.imagem p{
+    display: inline-block;
+    background-color: #00000081;
+    padding: 10px;
+}
+#img01{
+    background: url('imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+#img02{
+    background: url('imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    height: 25px;
+    background-color: #ecc383;
+}
+
+
