@@ -40,6 +40,8 @@ header p{
     text-align: center;
 }
 nav{
+    position: sticky;
+    top: 0;
     background-color: #ecc383;
     display: flex;
     margin: 0px;
