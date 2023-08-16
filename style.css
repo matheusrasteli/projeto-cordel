@@ -39,6 +39,9 @@ header p{
     top: 40%;
     text-align: center;
 }
+abbr{
+    text-decoration: none;
+}
 nav{
     position: sticky;
     top: 0;
